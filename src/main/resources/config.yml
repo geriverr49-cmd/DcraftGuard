@@ -1,0 +1,26 @@
+# Küfür ve Argo Listesi (Küçük harfle yazın)
+kufurler:
+  - "salak"
+  - "aptal"
+  - "gerizekali"
+  - "orospu"
+  - "siktir"
+  - "amk"
+  - "aq"
+  - "pic"
+  - "yavsak"
+  - "serefsiz"
+
+# Küfür sayılmayacak kelimeler (Beyaz Liste)
+beyazliste:
+  - "lan"
+  - "abi"
+  - "kanka"
+  - "kardes"
+  - "moruk"
+
+# Uyarı ve Ceza Sistemi
+ayarlar:
+  max_uyari: 3          # 3. küfürde mute atar
+  mute_suresi_saniye: 60 # 60 saniye mute
+  spam_koruma: true      # Spam koruması açık mı?
