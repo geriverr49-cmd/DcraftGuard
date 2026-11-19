@@ -1,0 +1,26 @@
+name: DcraftGuard
+version: 1.0.0
+main: com.example.guard.DcraftGuard
+api-version: 1.21
+author: Sen
+description: Gelismis Hile, Kufur ve Spam Korumasi
+
+commands:
+  guard:
+    description: Guard yonetim menusu
+    permission: dcraft.guard.admin
+    permission-message: "§cBu komutu kullanma yetkin yok!"
+  sikayet:
+    description: Bir oyuncuyu sikayet et
+    aliases: [report]
+  mute:
+    description: Bir oyuncuyu sustur
+    permission: dcraft.guard.admin
+
+permissions:
+  dcraft.guard.bypass:
+    description: Tum korumalari bypass etme
+    default: op
+  dcraft.guard.admin:
+    description: Admin komutlari
+    default: op
